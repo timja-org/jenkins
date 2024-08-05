@@ -90,7 +90,7 @@
     },
     {
       "matchPackageNames": ["net.jcip:jcip-annotations"],
-      "matchDatasources": ["maven"],
+      "matchManagers": ["maven"],
       "enabled": false,
       "description": "maven-metadata.xml is missing for this really old package which is required by renovate"
     }
