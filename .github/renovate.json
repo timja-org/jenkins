@@ -224,5 +224,8 @@
     "**/tests/**",
     "**/__fixtures__/**"
   ],
-  "osvVulnerabilityAlerts": true
+  "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
 }
