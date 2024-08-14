@@ -32,9 +32,7 @@
     },
     {
       "matchBaseBranches": ["/stable-.+/"],
-      "enabledManagers": [
-        "maven"
-      ]
+      "enabledManagers": []
     },
     {
       "description": "Should be upgraded in lockstep in order to keep their corresponding Jetty versions aligned, could be grouped but releases are likely separated by a bit of time",
