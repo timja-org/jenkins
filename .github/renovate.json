@@ -10,6 +10,7 @@
   "postUpdateOptions": [
     "yarnDedupeHighest"
   ],
+  "baseBranches": ["master", "stable-2.462"],
   "packageRules": [
     {
       "matchDatasources": [
@@ -28,6 +29,16 @@
         "node"
       ],
       "allowedVersions": "/20.[0-9]+.[0-9]+(.[0-9]+)?$/"
+    },
+    {
+      "matchBaseBranches": ["/stable-.+/"],
+      "enabledManagers": [
+        "maven"
+      ]
+    },
+    {
+      "matchBaseBranches": ["/stable-.+/"],
+      "osvVulnerabilityAlerts": true
     },
     {
       "description": "Should be upgraded in lockstep in order to keep their corresponding Jetty versions aligned, could be grouped but releases are likely separated by a bit of time",
