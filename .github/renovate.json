@@ -37,10 +37,6 @@
       ]
     },
     {
-      "matchBaseBranches": ["/stable-.+/"],
-      "osvVulnerabilityAlerts": true
-    },
-    {
       "description": "Should be upgraded in lockstep in order to keep their corresponding Jetty versions aligned, could be grouped but releases are likely separated by a bit of time",
       "matchManagers": [
         "maven"
@@ -228,5 +224,6 @@
     "**/__tests__/**",
     "**/tests/**",
     "**/__fixtures__/**"
-  ]
+  ],
+  "osvVulnerabilityAlerts": true
 }
