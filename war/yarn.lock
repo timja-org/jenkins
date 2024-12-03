@@ -4485,7 +4485,7 @@ __metadata:
     prettier: "npm:3.3.3"
     sass: "npm:1.77.8"
     sass-loader: "npm:16.0.0"
-    sortablejs: "npm:1.15.2"
+    sortablejs: "npm:1.15.6"
     style-loader: "npm:4.0.0"
     stylelint: "npm:16.8.1"
     stylelint-checkstyle-reporter: "npm:1.0.0"
@@ -6600,10 +6600,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sortablejs@npm:1.15.2":
-  version: 1.15.2
-  resolution: "sortablejs@npm:1.15.2"
-  checksum: 10c0/9b9101f47a46976070f1e7ab45d1850a8754f6e71252506868731292af46a7f1a3add03914fe074cd2a6bdfe8cd6cad149cfa260fe8a53475f5306ae679bf38c
+"sortablejs@npm:1.15.6":
+  version: 1.15.6
+  resolution: "sortablejs@npm:1.15.6"
+  checksum: 10c0/a75dcf53e5613b4106d46434e40114830f9c6449b3b439bc1925c1fbf0a0c1f044727a8f3d4ae1759fa7beaa33e7eb0c4a413e6aa88d6026577b59f3658ff727
   languageName: node
   linkType: hard
 
