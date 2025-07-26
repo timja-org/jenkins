@@ -46,7 +46,7 @@
     "sass-loader": "16.0.4",
     "style-loader": "4.0.0",
     "stylelint": "16.14.1",
-    "stylelint-checkstyle-reporter": "1.0.0",
+    "stylelint-checkstyle-reporter": "1.1.1",
     "stylelint-config-standard-scss": "14.0.0",
     "webpack": "5.97.1",
     "webpack-cli": "6.0.1",
